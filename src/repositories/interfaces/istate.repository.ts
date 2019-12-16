@@ -1,4 +1,4 @@
-import { IState } from './../../schemas/interfaces/istate';
+import { IState } from '../../schemas/interfaces/istate';
 export interface IStateRepository {
     findAll(): Promise<IState[]>;
     create(stateEntity: IState): Promise<IState[]>;
