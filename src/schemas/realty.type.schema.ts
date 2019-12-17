@@ -1,4 +1,4 @@
 import { Schema } from 'mongoose';
-export const RealtyTypeSchema = new Schema({
+export const realtyTypeSchema = new Schema({
     name: String,
 });

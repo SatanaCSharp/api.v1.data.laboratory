@@ -1,4 +1,4 @@
 import { Schema } from 'mongoose';
-export const AdvertTypeSchema = new Schema({
+export const advertTypeSchema = new Schema({
     name: String,
 });

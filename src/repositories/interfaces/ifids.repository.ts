@@ -1,5 +1,6 @@
 import { IFid } from '../../schemas/interfaces/ifid';
-export interface IFidRepository {
+
+export interface IFidsRepository {
     findAll(): Promise<IFid[]>;
     show(id: string): Promise<IFid>;
     create(fidEntity: IFid): Promise<IFid[]>;
