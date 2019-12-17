@@ -15,12 +15,15 @@ export class RealtyTypesRepository implements IRealtyTypesRepository {
        return this.RealtyType.find({});
     }
     public create = async (realtyTypeEntity: IRealtyType): Promise<IRealtyType[]> => {
+        await this.RealtyType.create(realtyTypeEntity);
         return this.findAll();
     }
     public update = async (id: string, realtyTypeEntity: IRealtyType): Promise<IRealtyType[]> => {
+        await this.RealtyType.findByIdAndUpdate({_id: id}, realtyTypeEntity);
         return this.findAll();
     }
     public delete = async (id: string): Promise<IRealtyType[]> => {
+        await this.RealtyType.findByIdAndRemove(id);
         return this.findAll();
     }
 }
