@@ -1,3 +1,3 @@
 export interface ICity {
-    name: string;
+    name?: string;
 }
