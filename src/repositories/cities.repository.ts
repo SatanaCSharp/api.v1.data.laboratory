@@ -1,14 +1,15 @@
+import { inject, injectable } from 'inversify';
 import { Model } from 'mongoose';
 import { citySchema } from '../schemas/city.schema';
 import { ICity } from '../schemas/interfaces/icity';
 import { ICityModel } from '../schemas/interfaces/icity.model';
 import { MongoConnectionService } from '../services/mongo.service';
+import { TYPES } from '../services/types';
 import { ICitiesRepository } from './interfaces/icities.repository';
-
+@injectable()
 export class CitiesRepository implements ICitiesRepository {
     private City: Model<ICityModel>;
-
-    constructor(mongoConnectionService: MongoConnectionService) {
+    constructor(@inject(TYPES.MongoConnectionService)mongoConnectionService: MongoConnectionService) {
         this.City = mongoConnectionService.connection.model('City', citySchema);
     }
 
