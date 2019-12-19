@@ -5,6 +5,7 @@ const TYPES = {
     IFidsRepository:  Symbol.for('IFidsRepository'),
     IPriceTypesRepository:  Symbol.for('IPriceTypesRepository'),
     IRealtyTypesRepository:  Symbol.for('IRealtyTypesRepository'),
+    IStatesRepository:  Symbol.for('IStatesRepository'),
     IWallTypesRepository:  Symbol.for('IWallTypesRepository'),
 };
 
