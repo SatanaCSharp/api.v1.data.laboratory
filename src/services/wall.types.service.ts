@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { inject, injectable } from 'inversify';
 import { IMapRequestToEntity } from '../mappers/interfaces/imap.request.to.enitity';
 import { MAPPER_TYPES } from '../mappers/types';
-import { TYPES } from '../repositories/types';
+import { REPOSITORY_TYPES } from '../repositories/types';
 import { IWallTypesRepository } from './../repositories/interfaces/iwall.types.repository';
 import { IWallType } from './../schemas/interfaces/iwall.type';
 import { IWallTypesService } from './interfaces/iwall.types.service';
@@ -10,7 +10,7 @@ import { IWallTypesService } from './interfaces/iwall.types.service';
 @injectable()
 export class WallTypesService implements IWallTypesService {
     constructor(
-        @inject(TYPES.IWallTypesRepository) private wallTypesRepository: IWallTypesRepository,
+        @inject(REPOSITORY_TYPES.IWallTypesRepository) private wallTypesRepository: IWallTypesRepository,
         @inject(MAPPER_TYPES.WallTypeMapper) private wallTypeMapper: IMapRequestToEntity<Request, IWallType>,
     ) {}
 

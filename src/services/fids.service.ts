@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { inject, injectable } from 'inversify';
 import { IMapRequestToEntity } from '../mappers/interfaces/imap.request.to.enitity';
 import { MAPPER_TYPES } from '../mappers/types';
-import { TYPES } from '../repositories/types';
+import { REPOSITORY_TYPES } from '../repositories/types';
 import { IFid } from '../schemas/interfaces/ifid';
 import { IFidsRepository } from './../repositories/interfaces/ifids.repository';
 import { IFidsService } from './interfaces/ifids.service';
@@ -10,7 +10,7 @@ import { IFidsService } from './interfaces/ifids.service';
 @injectable()
 export class FidsService implements IFidsService {
     constructor(
-        @inject(TYPES.IFidsRepository) private fidsRepository: IFidsRepository,
+        @inject(REPOSITORY_TYPES.IFidsRepository) private fidsRepository: IFidsRepository,
         @inject(MAPPER_TYPES.FidMapper) private fidMapper: IMapRequestToEntity<Request, IFid>,
     ) {}
 

@@ -3,14 +3,14 @@ import { inject, injectable } from 'inversify';
 import { IMapRequestToEntity } from '../mappers/interfaces/imap.request.to.enitity';
 import { MAPPER_TYPES } from '../mappers/types';
 import { IPriceTypesRepository } from '../repositories/interfaces/iprice.types.repository';
-import { TYPES } from '../repositories/types';
+import { REPOSITORY_TYPES } from '../repositories/types';
 import { IPriceType } from '../schemas/interfaces/iprice.type';
 import { IPriceTypesService } from './interfaces/iprice.types.service';
 
 @injectable()
 export class PriceTypesService implements IPriceTypesService {
     constructor(
-        @inject(TYPES.IPriceTypesRepository) private priceTypesRepository: IPriceTypesRepository,
+        @inject(REPOSITORY_TYPES.IPriceTypesRepository) private priceTypesRepository: IPriceTypesRepository,
         @inject(MAPPER_TYPES.PriceTypeMapper) private priceTypeMapper: IMapRequestToEntity<Request, IPriceType>,
     ) {}
 

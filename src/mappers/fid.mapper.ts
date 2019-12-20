@@ -1,10 +1,12 @@
 import { Request } from 'express';
+import { inject, injectable } from 'inversify';
+import { ENTITY_TYPES } from '../entities/types';
 import { IFid } from './../schemas/interfaces/ifid';
 import { IMapRequestToEntity } from './interfaces/imap.request.to.enitity';
 
+@injectable()
 export class FidMapper implements IMapRequestToEntity<Request, IFid> {
-
-    constructor(private fidEntity: IFid) {}
+    constructor(@inject(ENTITY_TYPES.IFid) private fidEntity: IFid) {}
 
     public mapRequestToEntity(req: Request): IFid {
         this.setEmail(req.body.email);

@@ -1,7 +1,7 @@
 import { inject, injectable } from 'inversify';
 import { Model } from 'mongoose';
 import { IWallType } from '../schemas/interfaces/iwall.type';
-import { TYPES } from '../services/types';
+import { SERVICE_TYPES } from '../services/types';
 import { IWallTypeModel } from './../schemas/interfaces/iwall.type.model';
 import { wallTypeSchema } from './../schemas/wall.type.schema';
 import { MongoConnectionService } from './../services/mongo.service';
@@ -9,7 +9,7 @@ import { IWallTypesRepository } from './interfaces/iwall.types.repository';
 @injectable()
 export class WallTypesRepository implements IWallTypesRepository {
     private WallType: Model<IWallTypeModel>;
-    constructor(@inject(TYPES.MongoConnectionService)mongoConnectionService: MongoConnectionService) {
+    constructor(@inject(SERVICE_TYPES.MongoConnectionService)mongoConnectionService: MongoConnectionService) {
         this.WallType = mongoConnectionService.connection.model('WallType', wallTypeSchema);
     }
 

@@ -1,5 +1,4 @@
-
-const TYPES = {
+const REPOSITORY_TYPES = {
     IAdvertTypesRepository: Symbol.for('IAdvertTypesRepository'),
     ICitiesRepository:  Symbol.for('ICitiesRepository'),
     IFidsRepository:  Symbol.for('IFidsRepository'),
@@ -9,4 +8,4 @@ const TYPES = {
     IWallTypesRepository:  Symbol.for('IWallTypesRepository'),
 };
 
-export { TYPES };
+export { REPOSITORY_TYPES };

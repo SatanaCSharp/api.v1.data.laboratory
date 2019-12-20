@@ -4,12 +4,12 @@ import { IPriceType } from '../schemas/interfaces/iprice.type';
 import { IPriceTypeModel } from '../schemas/interfaces/iprice.type.model';
 import { priceTypeSchema } from '../schemas/price.type.schema';
 import { MongoConnectionService } from '../services/mongo.service';
-import { TYPES } from '../services/types';
+import { SERVICE_TYPES } from '../services/types';
 import { IPriceTypesRepository } from './interfaces/iprice.types.repository';
 @injectable()
 export class PriceTypesRepository implements IPriceTypesRepository {
     private PriceType: Model<IPriceTypeModel>;
-    constructor(@inject(TYPES.MongoConnectionService)mongoConnectionService: MongoConnectionService) {
+    constructor(@inject(SERVICE_TYPES.MongoConnectionService)mongoConnectionService: MongoConnectionService) {
         this.PriceType = mongoConnectionService.connection.model('PriceType', priceTypeSchema);
     }
 

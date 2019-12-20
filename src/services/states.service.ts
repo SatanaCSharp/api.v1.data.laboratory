@@ -3,14 +3,14 @@ import { inject, injectable } from 'inversify';
 import { IMapRequestToEntity } from '../mappers/interfaces/imap.request.to.enitity';
 import { MAPPER_TYPES } from '../mappers/types';
 import { IStatesRepository } from '../repositories/interfaces/istates.repository';
-import { TYPES } from '../repositories/types';
+import { REPOSITORY_TYPES } from '../repositories/types';
 import { IState } from './../schemas/interfaces/istate';
 import { IStatesService } from './interfaces/istates.service';
 
 @injectable()
 export class StatesService implements IStatesService {
     constructor(
-        @inject(TYPES.IStatesRepository) private statesRepository: IStatesRepository,
+        @inject(REPOSITORY_TYPES.IStatesRepository) private statesRepository: IStatesRepository,
         @inject(MAPPER_TYPES.StateMapper) private stateMapper: IMapRequestToEntity<Request, IState>,
     ) {}
     public findAll = async (req: Request, res: Response): Promise<void> => {

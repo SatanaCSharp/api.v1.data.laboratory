@@ -4,12 +4,12 @@ import { advertTypeSchema } from '../schemas/advert.type.schema';
 import { IAdvertType } from '../schemas/interfaces/iadvert.type';
 import { IAdvertTypeModel } from '../schemas/interfaces/iadvert.type.model';
 import { MongoConnectionService } from '../services/mongo.service';
-import { TYPES } from '../services/types';
+import { SERVICE_TYPES } from '../services/types';
 import { IAdvertTypesRepository } from './interfaces/iadvert.types.repository';
 @injectable()
 export class AdvertTypesRepository implements IAdvertTypesRepository {
     private AdvertType: Model<IAdvertTypeModel>;
-    constructor(@inject(TYPES.MongoConnectionService)mongoConnectionService: MongoConnectionService) {
+    constructor(@inject(SERVICE_TYPES.MongoConnectionService)mongoConnectionService: MongoConnectionService) {
         this.AdvertType = mongoConnectionService.connection.model('AdvertType', advertTypeSchema);
     }
 

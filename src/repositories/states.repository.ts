@@ -1,6 +1,6 @@
 import { inject, injectable } from 'inversify';
 import { Model } from 'mongoose';
-import { TYPES } from '../services/types';
+import { SERVICE_TYPES } from '../services/types';
 import { IState } from './../schemas/interfaces/istate';
 import { IStateModel } from './../schemas/interfaces/istate.model';
 import { stateSchema } from './../schemas/state.schema';
@@ -9,7 +9,7 @@ import { IStatesRepository } from './interfaces/istates.repository';
 @injectable()
 export class StatesRepository implements IStatesRepository {
     private State: Model<IStateModel>;
-    constructor(@inject(TYPES.MongoConnectionService)mongoConnectionService: MongoConnectionService) {
+    constructor(@inject(SERVICE_TYPES.MongoConnectionService)mongoConnectionService: MongoConnectionService) {
         this.State = mongoConnectionService.connection.model('State', stateSchema);
     }
 

@@ -3,13 +3,13 @@ import { inject, injectable } from 'inversify';
 import { IMapRequestToEntity } from '../mappers/interfaces/imap.request.to.enitity';
 import { MAPPER_TYPES } from '../mappers/types';
 import { IAdvertTypesRepository } from '../repositories/interfaces/iadvert.types.repository';
-import { TYPES } from '../repositories/types';
+import { REPOSITORY_TYPES } from '../repositories/types';
 import { IAdvertType } from './../schemas/interfaces/iadvert.type';
 import { IAdvertTypesService } from './interfaces/iadvert.types.service';
 @injectable()
 export class AdvertTypesService implements IAdvertTypesService {
     constructor(
-        @inject(TYPES.IAdvertTypesRepository) private advertTypesRepository: IAdvertTypesRepository,
+        @inject(REPOSITORY_TYPES.IAdvertTypesRepository) private advertTypesRepository: IAdvertTypesRepository,
         @inject(MAPPER_TYPES.AdvertTypeMapper) private advertTypesMapper: IMapRequestToEntity<Request, IAdvertType>,
     ) {}
 
