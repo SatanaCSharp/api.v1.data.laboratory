@@ -1,5 +1,7 @@
+import { injectable } from 'inversify';
 import { IFid } from './../schemas/interfaces/ifid';
 
+@injectable()
 export class FidEntity implements IFid {
    public email?: string;
    public localRealityId?: number;

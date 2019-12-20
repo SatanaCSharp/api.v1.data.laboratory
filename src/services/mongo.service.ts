@@ -11,9 +11,16 @@ export class MongoConnectionService {
     constructor(connectionString: string) {
         this.connectionString = connectionString || config.MONGO_CONNECTION_STRING;
         this.connection = createConnection(this.connectionString, {
-            reconnectTries: Number.MAX_VALUE,
-            reconnectInterval: 500,
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            useCreateIndex: true,
+            useFindAndModify: false,
+            autoIndex: false,
+            poolSize: 10,
             bufferMaxEntries: 0,
+            connectTimeoutMS: 10000,
+            socketTimeoutMS: 45000,
+            family: 4,
         });
         this.debug = debug('app:mongo');
         this.setupTriggers(this.connection);

@@ -1,7 +1,7 @@
 
 let config = {
     IP: process.env.NODEJS_IP || '127.0.0.1',
-    PORT: process.env.PORT || normalizePort('3000'),
+    PORT: process.env.PORT || normalizePort('5000'),
     MONGO_CONNECTION_STRING: process.env.MONGO_CONNECTION_STRING || 'mongodb://localhost:27017/lab_data',
   };
 
