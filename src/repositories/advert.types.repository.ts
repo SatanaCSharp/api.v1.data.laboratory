@@ -14,7 +14,7 @@ export class AdvertTypesRepository implements IAdvertTypesRepository {
     }
 
     public findAll = async (): Promise<IAdvertType[]> => {
-       return this.AdvertType.find({}, '_id name');
+       return this.AdvertType.find({});
     }
 
     public create  = async (advertTypeEntity: IAdvertType): Promise<IAdvertType[]> => {

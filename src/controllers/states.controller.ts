@@ -7,8 +7,8 @@ import {
     httpPost,
     httpPut,
   } from 'inversify-express-utils';
+import { IStatesService } from '../services/interfaces/istates.service';
 import { SERVICE_TYPES } from '../services/types';
-import { IStatesService } from './../services/interfaces/istates.service';
 
 @controller('/states')
 export class StatesController {

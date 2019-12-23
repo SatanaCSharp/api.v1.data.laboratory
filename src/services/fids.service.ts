@@ -2,9 +2,9 @@ import { Request, Response } from 'express';
 import { inject, injectable } from 'inversify';
 import { IMapRequestToEntity } from '../mappers/interfaces/imap.request.to.enitity';
 import { MAPPER_TYPES } from '../mappers/types';
+import { IFidsRepository } from '../repositories/interfaces/ifids.repository';
 import { REPOSITORY_TYPES } from '../repositories/types';
 import { IFid } from '../schemas/interfaces/ifid';
-import { IFidsRepository } from './../repositories/interfaces/ifids.repository';
 import { IFidsService } from './interfaces/ifids.service';
 
 @injectable()

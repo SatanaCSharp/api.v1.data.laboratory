@@ -2,9 +2,9 @@ import { Request, Response } from 'express';
 import { inject, injectable } from 'inversify';
 import { IMapRequestToEntity } from '../mappers/interfaces/imap.request.to.enitity';
 import { MAPPER_TYPES } from '../mappers/types';
+import { IWallTypesRepository } from '../repositories/interfaces/iwall.types.repository';
 import { REPOSITORY_TYPES } from '../repositories/types';
-import { IWallTypesRepository } from './../repositories/interfaces/iwall.types.repository';
-import { IWallType } from './../schemas/interfaces/iwall.type';
+import { IWallType } from '../schemas/interfaces/iwall.type';
 import { IWallTypesService } from './interfaces/iwall.types.service';
 
 @injectable()

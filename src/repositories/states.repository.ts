@@ -1,10 +1,10 @@
 import { inject, injectable } from 'inversify';
 import { Model } from 'mongoose';
+import { IState } from '../schemas/interfaces/istate';
+import { IStateModel } from '../schemas/interfaces/istate.model';
+import { stateSchema } from '../schemas/state.schema';
+import { MongoConnectionService } from '../services/mongo.service';
 import { SERVICE_TYPES } from '../services/types';
-import { IState } from './../schemas/interfaces/istate';
-import { IStateModel } from './../schemas/interfaces/istate.model';
-import { stateSchema } from './../schemas/state.schema';
-import { MongoConnectionService } from './../services/mongo.service';
 import { IStatesRepository } from './interfaces/istates.repository';
 @injectable()
 export class StatesRepository implements IStatesRepository {

@@ -4,7 +4,7 @@ import { IMapRequestToEntity } from '../mappers/interfaces/imap.request.to.eniti
 import { MAPPER_TYPES } from '../mappers/types';
 import { ICitiesRepository } from '../repositories/interfaces/icities.repository';
 import { REPOSITORY_TYPES } from '../repositories/types';
-import { ICity } from './../schemas/interfaces/icity';
+import { ICity } from '../schemas/interfaces/icity';
 import { ICitiesService } from './interfaces/icities.service';
 
 @injectable()

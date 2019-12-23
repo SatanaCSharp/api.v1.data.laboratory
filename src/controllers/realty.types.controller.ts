@@ -7,8 +7,8 @@ import {
     httpPost,
     httpPut,
   } from 'inversify-express-utils';
+import { IRealtyTypesService } from '../services/interfaces/irealty.types.service';
 import { SERVICE_TYPES } from '../services/types';
-import { IRealtyTypesService } from './../services/interfaces/irealty.types.service';
 
 @controller('/realty-types')
 export class RealtyTypesController {

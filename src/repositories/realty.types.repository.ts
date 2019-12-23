@@ -1,10 +1,10 @@
 import { inject, injectable } from 'inversify';
 import { Model } from 'mongoose';
+import { IRealtyType } from '../schemas/interfaces/irealty.type';
+import { IRealtyTypeModel } from '../schemas/interfaces/irealty.type.model';
+import { realtyTypeSchema } from '../schemas/realty.type.schema';
+import { MongoConnectionService } from '../services/mongo.service';
 import { SERVICE_TYPES } from '../services/types';
-import { IRealtyType } from './../schemas/interfaces/irealty.type';
-import { IRealtyTypeModel } from './../schemas/interfaces/irealty.type.model';
-import { realtyTypeSchema } from './../schemas/realty.type.schema';
-import { MongoConnectionService } from './../services/mongo.service';
 import { IRealtyTypesRepository } from './interfaces/irealty.types.repository';
 @injectable()
 export class RealtyTypesRepository implements IRealtyTypesRepository {

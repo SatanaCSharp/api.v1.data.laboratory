@@ -7,8 +7,8 @@ import {
     httpPost,
     httpPut,
   } from 'inversify-express-utils';
+import { IFidsService } from '../services/interfaces/ifids.service';
 import { SERVICE_TYPES } from '../services/types';
-import { IFidsService } from './../services/interfaces/ifids.service';
 
 @controller('/fids')
 export class FidsController {

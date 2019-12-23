@@ -7,8 +7,8 @@ import {
     httpPost,
     httpPut,
   } from 'inversify-express-utils';
+import { IAdvertTypesService } from '../services/interfaces/iadvert.types.service';
 import { SERVICE_TYPES } from '../services/types';
-import { IAdvertTypesService } from './../services/interfaces/iadvert.types.service';
 
 @controller('/advert-types')
 export class AdvertTypesController {

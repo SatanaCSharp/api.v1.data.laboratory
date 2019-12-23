@@ -1,10 +1,10 @@
 import { inject, injectable } from 'inversify';
 import { Model } from 'mongoose';
 import { IWallType } from '../schemas/interfaces/iwall.type';
+import { IWallTypeModel } from '../schemas/interfaces/iwall.type.model';
+import { wallTypeSchema } from '../schemas/wall.type.schema';
+import { MongoConnectionService } from '../services/mongo.service';
 import { SERVICE_TYPES } from '../services/types';
-import { IWallTypeModel } from './../schemas/interfaces/iwall.type.model';
-import { wallTypeSchema } from './../schemas/wall.type.schema';
-import { MongoConnectionService } from './../services/mongo.service';
 import { IWallTypesRepository } from './interfaces/iwall.types.repository';
 @injectable()
 export class WallTypesRepository implements IWallTypesRepository {

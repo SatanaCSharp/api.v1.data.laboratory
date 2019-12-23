@@ -4,7 +4,7 @@ import { IMapRequestToEntity } from '../mappers/interfaces/imap.request.to.eniti
 import { MAPPER_TYPES } from '../mappers/types';
 import { IStatesRepository } from '../repositories/interfaces/istates.repository';
 import { REPOSITORY_TYPES } from '../repositories/types';
-import { IState } from './../schemas/interfaces/istate';
+import { IState } from '../schemas/interfaces/istate';
 import { IStatesService } from './interfaces/istates.service';
 
 @injectable()

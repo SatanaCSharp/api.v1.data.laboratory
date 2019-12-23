@@ -7,8 +7,8 @@ import {
     httpPost,
     httpPut,
   } from 'inversify-express-utils';
+import { IPriceTypesService } from '../services/interfaces/iprice.types.service';
 import { SERVICE_TYPES } from '../services/types';
-import { IPriceTypesService } from './../services/interfaces/iprice.types.service';
 
 @controller('/price-types')
 export class PriceTypesController {
