@@ -29,7 +29,8 @@
     "supertest": "^4.0.2",
     "ts-node": "^8.5.4",
     "tslint": "^5.20.1",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.3",
+    "xmlbuilder": "^13.0.2"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.1",

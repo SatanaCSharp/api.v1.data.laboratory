@@ -8,11 +8,15 @@ import {
     httpPut,
   } from 'inversify-express-utils';
 import { IFidsService } from '../services/interfaces/ifids.service';
+import {IFidsXmlService} from '../services/interfaces/ifids.xml.service';
 import { SERVICE_TYPES } from '../services/types';
 
 @controller('/fids')
 export class FidsController {
-    constructor(@inject(SERVICE_TYPES.IFidsService) private fidsService: IFidsService) {
+    constructor(
+        @inject(SERVICE_TYPES.IFidsService) private fidsService: IFidsService,
+        @inject(SERVICE_TYPES.IFidsXmlService) private fidXmlService: IFidsXmlService,
+    ) {
         this.findAll.bind(this);
         this.show.bind(this);
         this.create.bind(this);
@@ -28,6 +32,11 @@ export class FidsController {
     @httpGet('/:id')
     public async show(req: Request, res: Response): Promise<void> {
         await this.fidsService.show(req, res);
+    }
+
+    @httpGet('/xml/:id')
+    public async getXMl(req: Request, res: Response): Promise<void> {
+        await this.fidXmlService.getFidXml(req, res);
     }
 
     @httpPost('/')

@@ -1,7 +1,7 @@
 import { Request } from 'express';
 import { inject, injectable } from 'inversify';
 import { ENTITY_TYPES } from '../entities/types';
-import { IFid } from './../schemas/interfaces/ifid';
+import { IFid } from '../schemas/interfaces/ifid';
 import { IMapRequestToEntity } from './interfaces/imap.request.to.enitity';
 
 @injectable()
@@ -10,7 +10,7 @@ export class FidMapper implements IMapRequestToEntity<Request, IFid> {
 
     public mapRequestToEntity(req: Request): IFid {
         this.setEmail(req.body.email);
-        this.setLocalRealtyId(req.body.localRealtyId);
+        this.setLocalRealtyId(req.body.localRealityId);
         this.setRealityType(req.body.realityType);
         this.setState(req.body.state);
         this.setCity(req.body.city);
@@ -30,9 +30,9 @@ export class FidMapper implements IMapRequestToEntity<Request, IFid> {
         }
     }
 
-    private setLocalRealtyId(localRealtyId: number) {
-        if (localRealtyId || localRealtyId === 0) {
-            this.fidEntity.localRealityId = localRealtyId;
+    private setLocalRealtyId(localRealityId: number) {
+        if (localRealityId) {
+            this.fidEntity.localRealityId = localRealityId;
         }
     }
 
