@@ -8,7 +8,7 @@
       "instances": "max",
       "env": {
         "NODE_ENV": "production",
-        "MONGO_CONNECTION_STRING":"mongodb://localhost:27017/Laboratory_data"
+        "MONGO_CONNECTION_STRING":"mongodb+srv://dataLab:1Swat741@cluster0-fuwfp.mongodb.net/test?retryWrites=true&w=majority"
       }
     }
   ]

@@ -4,8 +4,7 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "start:prod": "node dist/app.js",
-    "start": "pm2 start pm2.json",
+    "start": "pm2-runtime start pm2.json",
     "stop": "pm2 stop all",
     "dev": "nodemon src/app.ts",
     "build": "tsc -p ."
