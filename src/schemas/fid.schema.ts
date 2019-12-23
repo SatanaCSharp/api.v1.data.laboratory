@@ -11,5 +11,5 @@ export const fidSchema = new Schema({
     price: Number,
     priceType: String,
     wallType: String,
-    roomsCount: String,
+    roomsCount: Number,
 });

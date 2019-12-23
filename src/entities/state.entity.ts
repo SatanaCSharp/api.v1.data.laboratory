@@ -1,8 +1,7 @@
+import { injectable } from 'inversify';
 import { IState } from './../schemas/interfaces/istate';
 
+@injectable()
 export class StateEntity implements IState {
-    public name: string;
-    constructor(name: string) {
-        this.name = name;
-    }
+    public name?: string;
 }

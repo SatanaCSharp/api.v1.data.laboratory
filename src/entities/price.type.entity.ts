@@ -1,8 +1,7 @@
+import { injectable } from 'inversify';
 import { IPriceType } from '../schemas/interfaces/iprice.type';
 
+@injectable()
 export class PriceTypeEntity implements IPriceType {
-    public name: string;
-    constructor(name: string) {
-        this.name = name;
-    }
+    public name?: string;
 }

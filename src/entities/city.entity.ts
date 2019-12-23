@@ -1,8 +1,7 @@
+import { injectable } from 'inversify';
 import { ICity } from './../schemas/interfaces/icity';
 
+@injectable()
 export class CityEntity implements ICity {
-    public name: string;
-    constructor(name: string) {
-        this.name = name;
-    }
+    public name?: string;
 }

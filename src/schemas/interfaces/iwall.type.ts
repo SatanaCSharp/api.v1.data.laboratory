@@ -1,3 +1,3 @@
 export interface IWallType {
-    name: string;
+    name?: string;
 }

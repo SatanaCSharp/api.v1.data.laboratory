@@ -1,8 +1,7 @@
+import { injectable } from 'inversify';
 import { IWallType } from './../schemas/interfaces/iwall.type';
 
+@injectable()
 export class WallTypeEntity implements IWallType {
-    public name: string;
-    constructor(name: string) {
-        this.name = name;
-    }
+    public name?: string;
 }

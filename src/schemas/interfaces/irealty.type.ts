@@ -1,3 +1,3 @@
 export interface IRealtyType {
-    name: string;
+    name?: string;
 }

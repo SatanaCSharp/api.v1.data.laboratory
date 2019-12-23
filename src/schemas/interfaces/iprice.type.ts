@@ -1,3 +1,3 @@
 export interface IPriceType {
-    name: string;
+    name?: string;
 }
