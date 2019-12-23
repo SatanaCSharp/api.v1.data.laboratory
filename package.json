@@ -4,8 +4,9 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/app.js",
+    "start:prod": "node dist/app.js",
+    "start": "pm2 start pm2.json",
+    "stop": "pm2 stop all",
     "dev": "nodemon src/app.ts",
     "build": "tsc -p ."
   },
@@ -32,6 +33,11 @@
     "typescript": "^3.7.3",
     "xmlbuilder": "^13.0.2"
   },
+  "keywords": [
+    "nodejs",
+    "express",
+    "architecture"
+  ],
   "devDependencies": {
     "@types/body-parser": "^1.17.1",
     "@types/cookie-parser": "^1.4.2",
