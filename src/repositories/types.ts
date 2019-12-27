@@ -6,6 +6,7 @@ const REPOSITORY_TYPES = {
     IRealtyTypesRepository:  Symbol.for('IRealtyTypesRepository'),
     IStatesRepository:  Symbol.for('IStatesRepository'),
     IWallTypesRepository:  Symbol.for('IWallTypesRepository'),
+    IEducationQueueRepository:  Symbol.for('IEducationQueueRepository'),
 };
 
 export { REPOSITORY_TYPES };
