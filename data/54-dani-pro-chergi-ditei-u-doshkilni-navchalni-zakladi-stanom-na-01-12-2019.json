@@ -1,0 +1,382 @@
+[
+ {
+   "Ua_edr": 24620061,
+   "Education_name": "Тернопільський навчально-виховний комплекс №7 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТНВК №7",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620055,
+   "Education_name": "Тернопільський навчально-виховний комплекс №28 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТНВК №28",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620380,
+   "Education_name": "Тернопільський навчально-виховний комплекс № 32 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТНВК №32",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "4",
+   "ExcessYounger": null,
+   "ExcessElder": "-2"
+ },
+ {
+   "Ua_edr": 24621310,
+   "Education_name": "Тернопільський навчально-виховний комплекс № 35 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТНВК №35",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "51",
+   "ExcessYounger": null,
+   "ExcessElder": "-15"
+ },
+ {
+   "Ua_edr": 24620167,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №1 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №1",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620049,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №2 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №2",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "78",
+   "ExcessYounger": "-20",
+   "ExcessElder": "-39"
+ },
+ {
+   "Ua_edr": 33915120,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №3 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №3",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "43",
+   "ExcessYounger": null,
+   "ExcessElder": "-1"
+ },
+ {
+   "Ua_edr": 39882478,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №4 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №4",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "34",
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620300,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №5 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №5",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620026,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №6 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №6",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24621652,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №8 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №8",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24618802,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №9 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №9",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24622835,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №10 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №10",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24618779,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №11 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №11",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "36",
+   "ExcessYounger": null,
+   "ExcessElder": "-12"
+ },
+ {
+   "Ua_edr": 24618762,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №12 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №12",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "45",
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620017,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №13 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №13",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620032,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №14 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №14",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "2",
+   "ExcessYounger": null,
+   "ExcessElder": "-2"
+ },
+ {
+   "Ua_edr": 24621404,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №15 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №15",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "35",
+   "ExcessYounger": "-38",
+   "ExcessElder": "-2"
+ },
+ {
+   "Ua_edr": 24620003,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №16 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №16",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620246,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №17 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №17",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "2",
+   "ExcessYounger": "7",
+   "ExcessElder": "-2"
+ },
+ {
+   "Ua_edr": 24620368,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №18 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №18",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "45",
+   "ExcessYounger": "-8",
+   "ExcessElder": "-8"
+ },
+ {
+   "Ua_edr": 1269023,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №19 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №19",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "15",
+   "ExcessYounger": null,
+   "ExcessElder": "-10"
+ },
+ {
+   "Ua_edr": 24618785,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №20 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №20",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620279,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №21 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №21",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "34",
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 23596165,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №22 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №22",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "7",
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24618756,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №23 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №23",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24621327,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №24 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №24",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620291,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №25 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №25",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24618791,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №26 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №26",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 23596188,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №27 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №27",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 26025173,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №29 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №29",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "14",
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620078,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №30 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №30",
+   "Date": "2019-11-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620173,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №31 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №31",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "74",
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620084,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №33 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №33",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "51",
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24620090,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №34 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №34",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "14",
+   "ExcessYounger": "-10",
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24619997,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №36 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №36",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 1276023,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №37 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №37",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": "31",
+   "ExcessYounger": null,
+   "ExcessElder": null
+ },
+ {
+   "Ua_edr": 24621505,
+   "Education_name": "Тернопільський дошкільний навчальний заклад №38 Тернопільської міської ради Тернопільської області",
+   "Short_name": "ТДНЗ №38",
+   "Date": "2019-10-07",
+   "Number_seats": null,
+   "Number_children": null,
+   "ExcessYounger": null,
+   "ExcessElder": null
+ }
+]

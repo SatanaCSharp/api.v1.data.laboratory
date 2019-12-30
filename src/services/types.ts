@@ -8,6 +8,7 @@ const SERVICE_TYPES = {
     IRealtyTypesService: Symbol.for('IRealtyTypesService'),
     IStatesService: Symbol.for('IStatesService'),
     IWallTypesService: Symbol.for('IWallTypesService'),
+    IEducationQueueService: Symbol.for('IEducationQueueService'),
 };
 
 export { SERVICE_TYPES };
