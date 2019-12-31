@@ -2,6 +2,7 @@ import 'reflect-metadata';
 import './ioc/loader';
 
 import * as bodyParser from 'body-parser';
+import * as cors from 'cors';
 import * as Debug from 'debug';
 import {NextFunction, Request, Response } from 'express';
 import * as createError from 'http-errors';
@@ -14,6 +15,7 @@ server.setConfig((_app) => {
 
   _app.use(logger('dev'));
   _app.set('port', config.PORT);
+  _app.use(cors());
   _app.use(bodyParser.json());
   _app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -23,7 +25,6 @@ server.setConfig((_app) => {
     _app.use((req: Request, res: Response, next: NextFunction) => {
       next(createError(404));
     });
-
     // error handlers
     // development error handler
     // will print stacktrace
