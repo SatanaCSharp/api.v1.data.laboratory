@@ -51,6 +51,7 @@
     "@types/mocha": "^5.2.7",
     "@types/mongoose": "^5.5.34",
     "@types/morgan": "^1.7.37",
+    "@types/newrelic": "^5.11.2",
     "@types/node": "^12.12.17",
     "@types/supertest": "^2.0.8",
     "@types/uuid": "^3.4.6",

@@ -1,3 +1,4 @@
+import newrelic from 'newrelic';
 import 'reflect-metadata';
 import './ioc/loader';
 
